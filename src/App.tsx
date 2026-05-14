@@ -1,9 +1,11 @@
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+
 function App() {
   return (
-    <div className="h-screen bg-black text-white flex items-center justify-center">
-      <h1 className="text-5xl font-bold">
-        Interview Copilot AI 🚀
-      </h1>
+    <div style={{ background: "black", minHeight: "100vh" }}>
+      <Navbar />
+      <Home />
     </div>
   );
 }
