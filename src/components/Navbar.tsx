@@ -1,8 +1,22 @@
 function Navbar() {
   return (
-    <div style={{ color: "white", padding: "20px" }}>
-      Navbar
-    </div>
+    <nav
+      style={{
+        display: "flex",
+        justifyContent: "space-between",
+        padding: "20px",
+        background: "#111",
+        color: "white",
+      }}
+    >
+      <h2>Interview Copilot AI 🚀</h2>
+
+      <div style={{ display: "flex", gap: "20px" }}>
+        <p>Home</p>
+        <p>About</p>
+        <p>Contact</p>
+      </div>
+    </nav>
   );
 }
 
